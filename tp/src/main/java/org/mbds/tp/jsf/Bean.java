@@ -21,9 +21,9 @@ public class Bean {
      * Creates a new instance of Bean
      */
     public Bean() {
-        
+
     }
-    
+
     private int nombre;
 
     public int getNombre() {
@@ -32,6 +32,10 @@ public class Bean {
 
     public void setNombre(int nombre) {
         this.nombre = nombre;
+    }
+
+    public String afficher() {
+        return "affichage_3?nb=" + nombre + "&faces-redirect=true";
     }
 
     public List<Integer> getNombresSuivants() {
