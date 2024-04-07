@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/JSF/JSFManagedBean.java to edit this template
  */
-package jsf;
+package org.mbds.tp.jsf;
 
 import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
@@ -21,9 +21,10 @@ public class Bean {
      * Creates a new instance of Bean
      */
     public Bean() {
+        
     }
     
-      private int nombre;
+    private int nombre;
 
     public int getNombre() {
         return nombre;
@@ -41,5 +42,4 @@ public class Bean {
         }
         return l;
     }
-    
 }
